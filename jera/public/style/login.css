@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: rgb(109, 37, 37);
+}
+
+#box{
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 25px;
+    background-color: rgba(26, 25, 25, 0.856);
+    color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(26, 25, 25, 0.856);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(26, 25, 25, 0.856);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: rgb(117, 112, 112);
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button[type=submit]:hover {
+    background-color: rgb(150, 25, 25);
+}
